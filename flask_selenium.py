@@ -16,6 +16,7 @@ from flask import Flask, render_template, request
 
 
 app = Flask(__name__)
+app.config['DEBUG'] = True
 
 # Selenium Code
 
@@ -408,5 +409,6 @@ def selenium_code(url):
 # # driver.get("http://whatismyipaddress.com")
 
 
-if __name__ != '__main__':
+
+if __name__ == '__main__':
     app.run(debug=True)
