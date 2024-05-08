@@ -408,5 +408,4 @@ def selenium_code(url):
 # # driver.get("http://whatismyipaddress.com")
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+app.run(debug=True)
