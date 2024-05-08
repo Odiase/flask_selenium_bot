@@ -367,7 +367,7 @@ def selenium_main(driver):
 
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return ("Welcome To Flask Selenium....sate, Ikuzo!")
 
 
 @app.route('/automation',methods = ['GET', 'POST'])
